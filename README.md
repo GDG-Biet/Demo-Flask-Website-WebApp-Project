@@ -53,7 +53,7 @@ The main Flask application includes routes for:
 
 3. Install dependencies:
    ```bash
-   pip install Flask SQLAlchemy
+   pip install -r requirements.txt
    ```
 
 4. Run the Flask app:
@@ -62,6 +62,29 @@ The main Flask application includes routes for:
    ```
 
 5. Open your browser and visit `http://127.0.0.1:5000`.
+
+---
+
+## Additional Details
+
+### `instance/users.db`
+
+- The `users.db` file in the `instance/` directory is an SQLite database used to store user registration data.
+- If the file does not exist, it will be created automatically when the application is run for the first time.
+
+### `requirements.txt`
+
+- Contains a list of Python dependencies required to run the project:
+  ```plaintext
+  Flask
+  SQLAlchemy
+  ```
+
+To install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+---
 
 ## Technologies Used
 
