@@ -42,8 +42,8 @@ The main Flask application includes routes for:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AyushGoel0/Flask-Project-Demo.git
-   cd Flask-Project-Demo
+   git clone https://github.com/GDG-Biet/Demo-Flask-Website-WebApp-Project.git
+   cd Demo-Flask-Website-WebApp-Project
    ```
 
 2. Set up a virtual environment:
