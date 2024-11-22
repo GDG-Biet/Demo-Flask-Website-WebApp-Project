@@ -1,16 +1,16 @@
 # Demo-Flask-Website-WebApp-Project
-# Flask Project Demo
 
-This is a simple Flask-based web application with user authentication functionality, including login and registration features. Below is the project structure and a brief overview of its components.
+This is a simple Flask-based web application with user authentication functionality, including login and registration features. Below is the updated project structure and a brief overview of its components.
 
 ## File Structure
 
 ```
-Flask Project Demo/
+Demo-Flask-Website-WebApp-Project/
 │
 ├── .venv/                          # Virtual environment for the project
 │
-├── instance/                       # Instance folder (currently empty) for SQLite3(u can choose any other database here if u want)
+├── instance/                       # Instance folder for SQLite3 database
+│   └── users.db                    # SQLite3 database file for storing user data
 │
 ├── static/
 │   └── style.css                   # CSS file for styling
@@ -20,7 +20,9 @@ Flask Project Demo/
 │   ├── login.html                  # Login page
 │   └── register.html               # Registration page
 │
-└── app.py                          # Main Flask application
+├── app.py                          # Main Flask application
+├── README.md                       # Project documentation
+└── requirements.txt                # List of Python dependencies
 ```
 
 ## Flask Application: `app.py`
